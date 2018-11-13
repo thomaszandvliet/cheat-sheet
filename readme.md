@@ -3,7 +3,7 @@ Useful snippets of code and installation procedures
 
 ## Mac ##
 * [SSH](content/mac/ssh.md)
-* [Brew](content/mac/brew.md)
+* [Brew](content/mac/brew.md) ([source](https://brew.sh))
 * [Oh My ZSH](content/mac/zsh.md) ([source](https://ohmyz.sh))
 
 ## Git ##
