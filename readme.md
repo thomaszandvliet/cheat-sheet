@@ -8,4 +8,5 @@ Useful snippets of code and installation procedures
 
 ## Git ##
 * [Git snippets](content/git/git-snippets.md)
+* [Global gitignore](content/git/global-gitignore.md) ([source](https://www.gitignore.io))
 * [Git markdown](content/git/git-markdown.md) ([source](https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md))
