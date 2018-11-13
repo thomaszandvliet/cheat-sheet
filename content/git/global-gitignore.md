@@ -1,4 +1,5 @@
-[back to table of content](../../readme.md)
+[back to table of content](../../readme.md) |
+[git snippets](git-snippets.md)
 
 # Global gitignore #
 
