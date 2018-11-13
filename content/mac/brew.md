@@ -19,11 +19,13 @@ Setup and frequently used snippets
 
 #### Linking packages ####
 
+    brew list
     brew link <package>
     brew unlink <package>
 
 #### Services ####
 
+    brew services list
     brew services start mysql@5.7
     brew services stop mysql@5.7
 
