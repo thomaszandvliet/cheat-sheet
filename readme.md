@@ -2,6 +2,7 @@
 Useful snippets of code and installation procedures
 
 ## Mac ##
+* [SSH](content/mac/ssh.md)
 * [Brew](content/mac/brew.md)
 
 ## Git ##
