@@ -6,3 +6,4 @@ Useful snippets of code and installation procedures
 
 ## Git ##
 * [Git snippets](content/git/git-snippets.md)
+* [Git markdown](content/git/git-markdown.md) ([source](https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md))
