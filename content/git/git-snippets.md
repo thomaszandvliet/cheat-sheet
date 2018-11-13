@@ -15,6 +15,8 @@ Setup and frequently used snippets
     
     git config --global core.excludesfile ~/.gitignore
 
+[global gitignore](global-gitignore.md)
+
 #### Reload .gitignore ####
 
     git -rm -r --cached .
