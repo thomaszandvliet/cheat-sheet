@@ -16,3 +16,17 @@ Setup and frequently used snippets
     cat <filename>.pub
 
 Add to [GitHub](https://github.com/settings/keys)
+
+### Copy files (scp)
+
+    # remote -> local (download)
+    scp -rp {username}@{remote}:{path} {localPath}
+    
+    # local -> remote (upload)
+    scp -rp {localPath} {username}@{remote}:{path}
+    
+    # remote -> remote (external)
+    scp -rp {username}@{remote}:{path} {username}@{remote}:{path}
+    
+    # -r means recursive
+    # -p preserves modification times, access times, and modes from the original file
