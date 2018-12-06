@@ -1,4 +1,4 @@
-# Setup guide
+# Cheat sheet
 Useful snippets of code and installation procedures
 
 ## Mac ##
