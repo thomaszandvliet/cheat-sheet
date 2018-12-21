@@ -16,3 +16,4 @@ Useful snippets of code and installation procedures
 
 ## Miscellaneous ##
 * [Command line](content/miscellaneous/command-line.md)
+* [Composer](content/miscellaneous/composer.md)
