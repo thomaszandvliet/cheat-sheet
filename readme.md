@@ -13,6 +13,7 @@ Useful snippets of code and installation procedures
 
 ## Languages ##
 * [PHP](content/languages/php.md)
+* [Symfony](content/languages/symfony.md)
 
 ## Miscellaneous ##
 * [Command line](content/miscellaneous/command-line.md)
