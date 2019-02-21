@@ -17,16 +17,22 @@ Setup and frequently used snippets
 
 Add to [GitHub](https://github.com/settings/keys)
 
-### Copy files (scp)
+#### SSH Tunnel ####
+
+    ssh -D 8123 -f -C -q -N {username}@{host}
+    # System Preferences > Network > Advanced > Proxies > SOCKS Proxy
+    # localhost : 8123
+
+#### Copy files (scp) ####
 
     # remote -> local (download)
-    scp -rp {username}@{remote}:{path} {localPath}
+    scp -rp {username}@{host}:{path} {localPath}
     
     # local -> remote (upload)
-    scp -rp {localPath} {username}@{remote}:{path}
+    scp -rp {localPath} {username}@{host}:{path}
     
     # remote -> remote (external)
-    scp -rp {username}@{remote}:{path} {username}@{remote}:{path}
+    scp -rp {username}@{host}:{path} {username}@{remote}:{path}
     
     # -r means recursive
     # -p preserves modification times, access times, and modes from the original file
