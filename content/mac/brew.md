@@ -37,3 +37,8 @@ Setup and frequently used snippets
 #### Specific version
 
     brew install <package>@<version>
+
+#### Use PHP version with zsh ####
+
+    # ~/.zshrc
+    export PATH="$PATH:/usr/local/Cellar/php/7.3.7/bin"
