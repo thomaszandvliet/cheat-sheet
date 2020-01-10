@@ -22,6 +22,10 @@ Add to [GitHub](https://github.com/settings/keys)
     ssh -D 8123 -f -C -q -N {username}@{host}
     # System Preferences > Network > Advanced > Proxies > SOCKS Proxy
     # localhost : 8123
+    
+    ssh -L {remotePort}:localhost:{localPort} {username}@{host}
+    # port tunneling
+    
 
 #### Copy files (scp) ####
 
